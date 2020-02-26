@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ご意見・ご感想｜哲学堂公園</title>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1 class="site_title">
+        <a href="index.html"><img src="img/logo.png" alt="トップへ戻る" width="40" height="40" class="logo"></a>
+        中野区有形文化財　哲学堂公園<span class="site_title_sub">〜哲学の不思議テーマパーク〜</span>
+      </h1>
+      <nav>
+        <ul class="main_nav cf">
+          <li>トップ</li>
+          <li>概要と歴史</li>
+          <li>古建築物六棟</li>
+          <li>他の建築物等</li>
+          <li>基本情報</li>
+          <li>ご意見・ご感想</li>
+      </ul>
+      </nav>
+      <h2 class="page_title">ご意見・ご感想</h2>
+      <p><img src="img/message.jpg" alt="" width="970" height="300"></p>
+    </header>
+    <main>
+      <h3 class="section_title">哲学堂公園へのご意見・ご感想</h3>
+      <div class="honbun">
+        <p>哲学堂公園に関するご意見・ご感想をお寄せください。</p>
+        <p>実際に哲学堂公園にいらっしゃったことのある方も、本Webサイトで見ただけの方も色々なご意見をいただければ幸いです。</p>
+        <p>ご意見の送信は次のフォームをご利用ください。</p>
+      </div>
+      <hr>
+      <form action="xxxx.php" method="post" enctype="application/x-www-form-urlencoded" name="message_form" class="questions" id="message_form">
+        <p>
+          <label for="user_name">お名前：</label>
+          <input name="user_name" type="text" id="user_name" tabindex="1" size="20">
+          　　
+          <label for="email">メールアドレス：</label>
+          <input name="email" type="email" id="email" tabindex="2">
+        </p>
+        <p>
+          性別：
+          <label>
+          <input name="seibetsu" type="radio" id="seibetsu_0" tabindex="3" value="male">
+          男性</label>
+          <label>
+          <input name="seibetsu" type="radio" id="seibetsu_1" tabindex="4" value="female">
+          女性</label>
+        </p>
+        <p>
+          <label for="nendai" class="left_space left-sapce">年代：</label>
+          <select name="nendai" id="nendai" tabindex="5">
+            <option>年代を選択してください</option>
+            <option value="0">10代未満</option>
+            <option value="10">10代</option>
+            <option value="20">20代</option>
+            <option value="30">30代</option>
+            <option value="40">40代</option>
+            <option value="50">50代</option>
+            <option value="60">60代以上</option>
+          </select>
+        </p>
+        <p>ご興味を持った建築物やオブジェがございましたら全て選択してください。</p>
+        <p class="cb_area">
+          <label>
+            <input name="interest" type="checkbox" id="interest_0" tabindex="6" value="1">
+          哲理門</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_1" tabindex="7" value="2">
+          四聖堂</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_2" tabindex="8" value="3">
+          六賢台</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_3" tabindex="9" value="4">
+          宇宙館</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_4" tabindex="10" value="5">
+          絶対城</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_5" tabindex="11" value="6">
+          三学亭</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_6" tabindex="12" value="7">
+          唯心庭</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_7" tabindex="13" value="8">
+          概念橋</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_8" tabindex="14" value="9">
+          鬼燈</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_9" tabindex="15" value="10">
+          唯物園</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_10" tabindex="16" value="11">
+          狸燈</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_11" tabindex="17" value="12">
+          時空岡</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_12" tabindex="18" value="13">
+          理想橋</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_13" tabindex="19" value="14">
+          直覚径</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_14" tabindex="20" value="15">
+          二元衛</label>
+          <label>
+            <input name="interest" type="checkbox" id="interest_15" tabindex="21" value="16">
+          筆塚</label>
+        </p>
+        <p>
+          <label for="textarea">哲学堂公園へのご意見・ご感想をお寄せください。
+          </label>
+          <textarea name="textarea" rows="6" class="goiken" id="textarea" tabindex="22"></textarea>
+        </p>
+        <p>
+          <input name="submit" type="submit" id="submit" tabindex="23" value="送信">
+          <input name="reset" type="reset" id="reset" tabindex="24" value="リセット">
+        </p>
+      </form>
+    </main>
+    <footer class="footer_info">
+      <address class="toiawase">
+        <a href="mailto:xxx@****.com">当Webサイトに関するお問い合わせ・ご意見</a>
+      </address>
+      <p class="copyright"><small>Copyright 2015 HapHands</small></p>
+    </footer>
+  </div>
+</body>
+</html>

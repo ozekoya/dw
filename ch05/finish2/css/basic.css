@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.site_title {
+  color: #4C4C4C;
+  font-size: 24px;
+}
+.page_title {
+  background-color: #339933;
+  color: white;
+  font-size: 20px;
+}
+.section_title {
+  color: #393;
+  font-size: 20px;
+  border-bottom: 1px solid #393;
+  border-left: 18px groove #393;
+}
+p {
+  margin:0;
+  padding:0;
+}
+.honbun  {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.news {
+  padding-left: 0.5em;
+  list-style-type: square;
+}
+.footer_info {
+  text-align: center;
+  border-top: 1px solid #393;
+}
+.toiawase {
+  font-style: normal;
+}
+.copyright {
+  color: #666;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	vertical-align: -10px;
+}
+.site_title_sub {
+	font-size: 14px;
+}
+.list_header {
+  font-weight: bold;
+  color: #28722C;
+}
+.rekishi {
+  margin: 10px auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+.rekishi tr {
+  border-bottom: 1px solid #999;
+}
+.rekishi td {
+	padding-left: 10px;
+}

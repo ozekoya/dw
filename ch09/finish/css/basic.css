@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+body {
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  line-height: 1.8;
+  font-size: 15px;
+  background-color: #D9F1D6;
+}
+.site_title {
+	margin: 0 0 5px 0;
+  padding:0;
+  color: #4C4C4C;
+  font-size: 24px;
+}
+.page_title {
+  margin: 5px 0 0 0;
+  padding: 4px 10px;
+  font-size: 20px;
+  background-color: #339933;
+  color: white;
+}
+.section_title {
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  color: #393;
+  border-left: groove 18px #393;
+  border-bottom: solid 1px #393;
+}
+p {
+  margin: 0;
+  padding:0;
+}
+.honbun {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.news, .information {
+  padding-left: 0.5em;
+}
+.news {
+  list-style-type: square;
+}
+.information {
+  list-style-type: circle;
+}
+.footer_info {
+  border-top: 1px solid #393;
+  text-align: center;
+  font-size: 16px;
+}
+.toiawase {
+  margin: 5px 0 0;
+  padding: 0;
+  font-style: normal;
+}
+.copyright {
+  margin: -5px auto 0;
+  padding: 0;
+  color: #666;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	vertical-align: -10px;
+}
+.site_title_sub {
+	font-size: 14px;
+}
+.list_header {
+  font-weight: bold;
+  color: #28722C;
+}
+.rekishi {
+  width: 90%;
+  margin: 10px auto;
+	border-collapse: collapse;
+}
+.rekishi tr {
+	border-bottom:1px solid #999;
+}
+.rekishi td {
+	padding-left: 10px;
+}
+.nen {
+  width: 155px;
+}
+.main_nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+}
+.main_nav li {
+  margin:0;
+  padding: 2px 15px;
+  float: left;
+  border-right: 1px solid #666;
+}
+.main_nav li:first-child  {
+	border-left: 1px solid #666;
+}
+.cf {
+  overflow:hidden;
+}
+#container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 320px;
+  margin: 20px auto;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 20px 0 #999;
+  box-shadow: 3px 3px 20px 0 #999;
+  background-color: white;
+}
+.topic {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  margin:0;
+  padding: 15px 1em 10px;
+  vertical-align: top;
+  border-top: 1px dashed #666;
+}
+.topic:first-child, .topic:nth-child(2){
+  border-top: none;
+}
+.topic_img {
+  width: 50%;
+  float: left;
+  margin-right: 1em;
+}
+.topic_img img, header p img {
+  max-width: 100%;
+  height: auto;
+}
+.topic_title {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #282;
+}
+.topic_honbun {
+  font-size: 14px;
+}
+.topic_top_border {
+  border-top: 1px dashed #666;
+}
+hr {
+  margin: 15px 1em;
+  border: none;
+  border-top: 1px solid #393;
+}
+.questions {
+  width: 530px;
+  margin: 0 auto 15px;
+  padding: 5px 10px;
+  background-color: #C0E7BB;
+}
+.cb_area {
+  width: 365px;
+}
+.goiken {
+  width: 95%;
+  display:block;
+}
+.main_nav a:hover {
+  background-color: #F3FFC1;
+}
+.main_nav a:active {
+  background-color: #DFFF5C;
+}
+.main_nav a {
+  display: block;
+  margin: -2px -15px;
+  padding: 2px 15px;
+}
+.map {
+  margin: 15px auto;
+  display: block;
+  width: 80%;
+}
+
+.dangumi {
+  /* 段組の幅 */
+  -moz-column-width:250px;
+  -webkit-column-width:250px;
+  -ms-column-width:250px;
+  column-width:250px;
+  
+  /* 段組の間隔 */
+  -moz-column-gap: 20px;
+  -webkit-column-gap: 20px;
+  -ms-column-gap: 20px;
+  column-gap: 20px;
+  
+  /* 段組の区切り線 */
+  -moz-column-rule: dashed 1px #CCC;
+  -webkit-column-rule: dashed 1px #CCC;
+  -ms-column-rule: dashed 1px #CCC;
+  column-rule: dashed 1px #CCC;
+}
+
+@media screen and (max-width: 768px){
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  margin:0;
+}
+.site_title_sub {
+  display: block;
+  margin:-5px 0 0 50px;
+}
+.main_nav {
+  font-size: 13px;
+}
+.main_nav li {
+  margin:0;
+  padding: 6px 4px;
+  float: left;
+  border-right: 1px solid #666;
+}
+.main_nav a {
+  margin: -6px -4px;
+  padding: 6px 4px;
+}
+.topic {
+  width: 100%;
+  display: block;
+  padding: 15px 0.5em 10px;
+}
+.topic:nth-child(2) {
+  border-top: 1px dashed #666;
+}
+.topic_title {
+  font-size: 18px;
+}
+.topic_honbun {
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width: 480px){
+#container {
+  padding: 5px;
+}
+.logo {
+  width:30px;
+  height: 30px;
+}
+.site_title {
+  text-align: center;
+  font-size: 18px;
+}
+.site_title_sub {
+  margin:0;
+}
+.main_nav li {
+  width: 33.3%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #339933;
+  padding: 7px 0;
+}
+.main_nav a {
+  margin: -7px 0;
+  padding: 7px 0;
+}
+.toiawase {
+  font-size: 15px;
+}
+.topic_img {
+  width: 100%;
+  float: none;
+  margin-right: 1em;
+  font-size: medium;
+}
+}
