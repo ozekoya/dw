@@ -1,0 +1,22 @@
+@charset "utf-8";
+body {
+    font-size: 15;
+    line-height: 1.8;
+    font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+}
+.site_title {
+    color: #4c4c4c;
+    font-size: 24px;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+.sectiom_title {
+    color: #393;
+    font-size: 20px;
+    border-bottom: 1px solid #393;
+    border-left: 18px groove #393;
+}
+.page_title {
+    font-size: 20px;
+    background-color: #339933;
+    color: white;
+}
