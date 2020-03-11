@@ -9,6 +9,10 @@ body {
     font-size: 24px;
     font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
 }
+.honbun {
+	margin-right: 1em;
+	margin-left: 1em;
+}
 .sectiom_title {
     color: #393;
     font-size: 20px;
@@ -20,3 +24,10 @@ body {
     background-color: #339933;
     color: white;
 }
+p{
+	margin: 0px;
+	padding: 0px;S
+	
+}
+
+
