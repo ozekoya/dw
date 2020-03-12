@@ -2,7 +2,11 @@
 body {
     font-size: 15;
     line-height: 1.8;
-    font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+.news {
+    padding-left: 0.5em;
+    list-style-type: square;
 }
 .site_title {
     color: #4c4c4c;
@@ -26,8 +30,30 @@ X}
 }
 p{
 	margin: 0px;
-	padding: 0px;S
+	padding: 0px;
 	
 }
 
 
+.footer_info {
+    border-top: 1px solid #393;
+    text-align: center;
+}
+.toiawase {
+    font-style: normal;
+}
+.copy {
+    color: #666;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    vertical-align: -10px;
+}
+.site_title_sub {
+    font-size: 14px;
+}
+.list_header {
+    font-weight: bold;
+    color: #28722c;
+}
