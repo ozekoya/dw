@@ -57,3 +57,14 @@ p{
     font-weight: bold;
     color: #28722c;
 }
+.rekishi {
+	width: 90%;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+.rekishi tr {
+	border-bottom: 1px solid #999999;
+}
+.rekishi td {
+	padding-left: 10px;
+}
