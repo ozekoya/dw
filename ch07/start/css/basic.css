@@ -13,6 +13,7 @@ body {
   font-size: 20px;
   background-color: #339933;
   color: white;
+	
 }
 .section_title {
   font-size: 20px;
@@ -70,4 +71,27 @@ p {
 }
 .rekishi td {
 	padding-left: 10px;
+}
+
+.main_nav{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	font-size: 16px;
+	
+}
+.main_nav li{
+	margin:0;
+	padding: 2px 15px;
+	float: left;
+	border-right: 1px solid #666;
+}
+.main_nav li:first-child  {
+	border-left: 1px solid #666;
+}
+
+
+.cf{
+	overflow: hidden;
+	
 }
