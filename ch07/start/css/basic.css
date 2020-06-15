@@ -95,3 +95,11 @@ p {
 	overflow: hidden;
 	
 }
+
+#container {
+  width: 970px;
+  margin: 20px auto;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 20px 0 #999;
+  box-shadow: 3px 3px 20px 0 #999;
+  background-color: white;
