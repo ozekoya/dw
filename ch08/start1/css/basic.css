@@ -129,3 +129,10 @@ p {
 .topic_top_border {
   border-top: 1px dashed #666;
 }
+hr{
+	margin: 15px 1em;
+	height: 1px;
+	border: none;
+	background-color: #393;
+	
+}

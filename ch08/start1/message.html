@@ -34,64 +34,63 @@
         <p>ご意見の送信は次のフォームをご利用ください。</p>
       </div>
       <hr>
-      <form action="***.php" method="post" enctype="application/x-www-form-urlencoded" name="form1" id="form1">
-		  <p>
-        <label for="user_name">onamae:</label>
-        <input name="user_name" type="text" id="user_name" tabindex="1" size="20">
-		  
-		  
-		  
+<form action="xxxx.php" method="post" enctype="application/x-www-form-urlencoded" id="form1">
+  <p>
+	<label for="user_name">お名前：</label>
+  <input name="user_name" type="text" id="user_name" tabindex="1" size="20">	
+  　　
+  <label for="email">メール</label>
+  <input name="email" type="email" id="email" tabindex="2">
+</p>
+  <p>性別：
+    <label>
+      <input name="seibetu" type="radio" id="seibetu_0" tabindex="3" value="male">
+      男性</label>
+    <label>
+      <input name="seibetu" type="radio" id="seibetu_1" tabindex="4" value="female">
+      女性</label>
+  </p>
+	<p>
+	<select tabindex="5">
+	  <option>年代をせんたく</option>
+	  <option value="0">１０未満</option>
+	  <option value="10">10代</option>
+	　<option value="20">20代</option>
+		
+	   </select>
+	</p>
+	ご興味を持った建築物
+	
+    <p>
+      <label>
+        <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_0" tabindex="6" value="1">
+        あああ</label>
+      <br>
+      <label>
+        <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_1" tabindex="7" value="2">
+        いいい</label>
+      <label>
+        <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_2" tabindex="8" value="3">
+        ううう</label>
+      
+      <label>
+        <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_3" tabindex="9" value="4">
+        えええ</label>
+      
+      <label>
+        <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_4" tabindex="10" value="5">
+        おおお</label>
+      
+    </p>
+	<p>
+	<llabel for="textarea"> ご意見をお寄せください </label>
+<textarea name="textarea" rows="6" id="textarea" tabindex="11" ></textarea></p>
+<input name="submit" type="submit" id="submit" tabindex="12">
+	<input name="reset" type="reset" id="reset" tabindex="13">
+	  </form>		  
 		  
       　　
-      <label for="email">Email:</label>
-      <input name="email" type="email" id="email" tabindex="２">
-</p>
-		  <p>
-		    <label>seibetu:
-		      <input name="seibetu" type="radio" id="seibetu_0" tabindex="3" value="male">
-		      男性</label>
-		    <label>
-		      <input name="seibetu" type="radio" id="seibetu_1" tabindex="4" value="female">
-		      女性</label>
-	      </p>
-		  <p>
-		    <label for="nendai">年代：</label>
-            <select name="nendai" id="nendai" tabindex="5">
-              <option selected="selected">年代</option>
-              <option value="0">－１０</option>
-              <option value="10">１０</option>
-              <option value="20">２０</option>
-              <option value="30">３０</option>
-              <option value="40">４０</option>
-            </select>
-        </p>
-		  <p>
-		    <label>興味のあるものをチェック<br>
-		      <input type="checkbox" name="interest" value="1" id="interest_0">
-	        １</label>
-		    
-		    <label>
-		      <input name="interest" type="checkbox" id="interest_1" tabindex="6" value="2">
-		      ２</label>
-		    
-		    <label>
-		      <input name="interest" type="checkbox" id="interest_2" tabindex="7" value="3">
-		      ３</label>
-		    
-			  
-			  
-			  
-		    <label>
-		      <input name="interest" type="checkbox" id="interest_3" tabindex="8" value="4">
-		      ４</label>
-		    
-		    <label>
-		      <input name="interest" type="checkbox" id="interest_4" tabindex="9" value="5">
-		      ５</label>
-		  
-	    </p>
-      </form>
-		
+
       
     </main>
     <footer class="footer_info">
