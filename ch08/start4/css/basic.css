@@ -101,6 +101,8 @@ p {
   overflow:hidden;
 }
 #container {
+	max-width: 970px;
+	min-width: 684px;
   width: 970px;
   margin: 20px auto;
   padding: 10px;
@@ -123,7 +125,7 @@ p {
   float: left;
   margin-right: 1em;
 }
-.topic_img img {
+.topic_img img, header p img{
   max-width: 100%;
   height: auto;
 }

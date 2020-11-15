@@ -147,3 +147,15 @@ hr {
   width: 95%;
   display:block;
 }
+
+.main_nav a:hover{
+	background-color: #f3ffc1;
+}
+.main_nav a:active{
+	background-color: #dfff5c;
+}
+.main_nav a {
+	display: block;
+	margin: -2px -15px;
+	padding:2px 15px;
+}

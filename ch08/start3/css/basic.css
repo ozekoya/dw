@@ -158,3 +158,9 @@ hr {
   margin: -2px -15px;
   padding: 2px 15px;
 }
+.map{
+	margin: 15px auto;
+	display: block;
+	width: 800px;
+	height: 600;
+}

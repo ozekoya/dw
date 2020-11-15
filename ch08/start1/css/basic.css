@@ -136,3 +136,17 @@ hr{
 	background-color: #393;
 	
 }
+.questions{
+	width: 530px;
+	margin: 0 auto 15px;
+	padding: 5px 10px;
+	background-color: #c8e7bb;
+	
+}
+.cb_area{
+	width: 365px;
+}
+.goiken{
+	width:95%;
+	display: block;
+}
